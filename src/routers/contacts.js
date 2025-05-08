@@ -8,9 +8,15 @@ import {
 } from '../controllers/contacts.js';
 
 import { Router } from 'express';
+// import { ctrlWrapper } from '../utils/ctrlWrapper.js';
+// import { isValidId } from '../middlewares/isValidId.js';
+// import { validBody } from '../middlewares/validBody.js';
+
 import { ctrlWrapper } from '../utils/ctrlWrapper.js';
 import { isValidId } from '../middlewares/isValidId.js';
-import { validBody } from '../middlewares/validBody.js';
+import { validateBody } from '../utils/validateBody.js';
+import { createContactSchema, updateContactSchema } from '../validation/contacts.js';
+
 
 const router = Router();
 
