@@ -9,7 +9,7 @@ import {
 import {
   createContactSchema,
   updateContactSchema,
-} from '../validation/contact.js';
+} from '../validation/contacts.js';
 
 import { Router } from 'express';
 import { ctrlWrapper } from '../utils/ctrlWrapper.js';
