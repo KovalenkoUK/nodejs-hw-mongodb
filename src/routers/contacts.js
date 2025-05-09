@@ -13,7 +13,7 @@ import { Router } from 'express';
 // import { validBody } from '../middlewares/validBody.js';
 
 import { ctrlWrapper } from '../utils/ctrlWrapper.js';
-import { isValidId } from '../middlewares/isValidId.js';
+import { isValidId } from './middlewares/isValidId.js';
 import { validateBody } from '../utils/validateBody.js';
 import { createContactSchema, updateContactSchema } from '../validation/contacts.js';
 
